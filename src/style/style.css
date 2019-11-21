@@ -2,6 +2,8 @@ body{
     background-color: #161618;
 }
 
+/*       header       */
+
 header{
     height: 160px;
     display: flex;
@@ -38,4 +40,40 @@ header figure{
     font-size: 14px;
     line-height: 21px;
     text-align: center;
+}
+
+/*       main       */
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main figure{
+    margin: 0;
+    margin-right: -49px;
+}
+
+#info{
+    width: 465px;
+    color: #ffffff;
+              
+}
+
+.big-text{                              
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+}
+
+.text{
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
 }
