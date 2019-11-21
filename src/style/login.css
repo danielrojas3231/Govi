@@ -19,7 +19,6 @@ header figure{
 }
 
 .header-buttons{
-    width: 352px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -52,21 +51,12 @@ header figure{
 /*       main       */
 
 main{
+    height: 618px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;;
     margin-bottom: 40px;
-}
-
-main figure{
-    margin: 0;
-    margin-right: -25px;
-}
-
-#info{
-    width: 465px;
-    margin-left:  12%;
-              
 }
 
 .big-text{                              
@@ -85,7 +75,7 @@ main figure{
     font-weight: bold;
     font-size: 72px;
     line-height: 108px;
-    margin-top: -288px;
+    margin-top: -180px;
     margin-left: -3px;
 
     color: transparent ;
@@ -94,24 +84,29 @@ main figure{
 
 }
 
-.text{
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
-    color: #ffffff;
+.inputs{
+    display: flex;
+    flex-direction: column;
+   
 }
 
-.text a{
+.inputs input{
+    width: 351px;
+    height: 55px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+    color: rgba(0, 0, 22, 0.5);
     font-family: Poppins;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 14px;    
     line-height: 21px;
-    color: #ffcb46;
-    text-decoration: none;
 }
+
 
 /*       footer       */
 
