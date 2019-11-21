@@ -1,0 +1,121 @@
+body{
+    background-color: #161618;
+    margin: auto;
+}
+
+/*       header       */
+
+header{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header figure{
+    margin: 0;
+    margin-left:  12%;
+}
+
+.header-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 12%;
+}
+
+.header-buttons button{
+    width: 166px;
+    height: 55px;
+    border-radius: 28px;
+
+    border-color: #ffcb46;
+    background-color: transparent;
+    color: #ffcb46;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    outline:none;
+}
+
+.header-buttons button:hover {
+    background-color: #ffcb46;
+    color: #161618;
+}
+
+/*       main       */
+
+main{
+    height: 618px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;;
+    margin-bottom: 40px;
+}
+
+.big-text{                              
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    color: #ffffff;
+    
+}
+
+.outline{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    margin-top: -180px;
+    margin-left: -3px;
+
+    color: transparent ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffcb46;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.inputs input{
+    width: 351px;
+    height: 55px;
+    padding-left: 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 20px;
+
+    color: rgba(0, 0, 22, 0.5);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;    
+    line-height: 21px;
+}
+
+
+/*       footer       */
+
+footer{
+    height: 170px;
+    background-color: #ffcb46;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
