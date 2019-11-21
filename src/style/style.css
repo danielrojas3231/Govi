@@ -1,6 +1,5 @@
 body{
     background-color: #161618;
-    max-width: 1440px;
     margin: auto;
 }
 
@@ -42,6 +41,12 @@ header figure{
     font-size: 14px;
     line-height: 21px;
     text-align: center;
+    outline:none;
+}
+
+.button:hover {
+    background-color: #ffcb46;
+    color: #161618;
 }
 
 /*       main       */
@@ -60,7 +65,6 @@ main figure{
 
 #info{
     width: 465px;
-    color: #ffffff;
     margin-left:  11.5%;
               
 }
@@ -71,15 +75,42 @@ main figure{
     font-weight: bold;
     font-size: 72px;
     line-height: 108px;
+    color: #ffffff;
+    
+}
+
+.outline{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 108px;
+    margin-top: -288px;
+    margin-left: -3px;
+
+    color: transparent ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffcb46;
+
 }
 
 .text{
-  
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 21px;
+    color: #ffffff;
+}
+
+.text a{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffcb46;
+    text-decoration: none;
 }
 
 /*       footer       */
