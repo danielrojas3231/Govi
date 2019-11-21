@@ -1,0 +1,41 @@
+body{
+    background-color: #161618;
+}
+
+header{
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header figure{
+    margin: 0;
+    margin-left:  169px;
+}
+
+.header-buttons{
+    width: 352px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 173px;
+}
+
+.button{
+    width: 166px;
+    height: 55px;
+    border-radius: 28px;
+
+    border-color: #ffcb46;
+    background-color: transparent;
+    color: #ffcb46;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+}
