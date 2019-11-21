@@ -19,6 +19,10 @@ header figure{
     margin-left:  11.5%;
 }
 
+a {
+    color: #ffcb46;
+}
+
 .header-buttons{
     width: 352px;
     display: flex;
@@ -86,10 +90,12 @@ main figure{
 
 footer{
     height: 170px;
-    background-color: #ffcb46;
+    background-color: #FFCB46;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-right: 0%;
+    margin-left: 0%;
 
 }
