@@ -31,6 +31,7 @@ for(let i=0; i< buttonsLogin.length ; i++){
             break;
 
             case 1:
+                window.location.href = "descubrir.html";
                 
             break;
         }
@@ -93,3 +94,4 @@ for(let i=0; i< buttonsPago.length ; i++){
 
     });
 }
+
