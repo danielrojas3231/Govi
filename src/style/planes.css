@@ -90,17 +90,21 @@ main{
 
 .ofertas{
     width: 1070px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .oferta{
     width: 350px; 
+    height: 425px;
     display: flex;
     padding-top: 30px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     background-color: #ffffff;
 }
 
@@ -143,8 +147,23 @@ main{
     outline:none;
 }
 
-.oferta button:hover {
-    background-color: #ffbb0f;
+.oferta:hover{
+    width: 400px;
+    height: 550px;
+    background-color: #ffcb46;
+}
+
+.oferta:hover p{
+    color: #ffffff;
+}
+
+.oferta:hover button{
+    background-color: #ffffff;
+    color: #161618;
+}
+
+.oferta:hover button:hover{
+    background-color: #ececec;
     color: #161618;
 }
 
