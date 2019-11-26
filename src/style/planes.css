@@ -1,6 +1,5 @@
 body{
     background-color: #161618;
-    margin: auto;
 }
 
 /*       header       */
@@ -18,7 +17,12 @@ header figure{
     margin-left:  12%;
 }
 
+a {
+    color: #ffcb46;
+}
+
 .header-buttons{
+    width: 352px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,7 +62,8 @@ main{
     margin-bottom: 67px;
 }
 
-.big-text{                           
+.big-text{       
+    text-align: center;                       
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
@@ -68,53 +73,66 @@ main{
     
 }
 
-.outline{    
+.outline{
+    text-align: center;
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
     line-height: 108px;
-    margin-top: -180px;
-    margin-left: -3px;
+    margin-top: -288px;
+    margin-left: -6px;
 
     color: transparent ;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffcb46;
-
 }
 
-.inputs{
+.ofertas{
+    width: 1070px;
     display: flex;
-    flex-direction: column;
-    margin-bottom: 67px;
-   
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.inputs input{
-    width: 351px;
-    height: 55px;
-    padding-left: 30px;
+.oferta{
+    width: 350px; 
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
     background-color: #ffffff;
-    border: none;
-    border-radius: 3px;
-    margin-bottom: 20px;
+}
 
-    color: rgba(0, 0, 22, 0.5);
+.oferta h1{
     font-family: Poppins;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;    
-    line-height: 21px;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #161618;
 }
 
-main button{
+.oferta p{
+    margin-bottom: 50px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 22, 0.5);
+}
+
+.oferta button{
     width: 166px;
     height: 55px;
+    margin-bottom: 50px;
     border-radius: 28px;
 
-    border-color: #ffcb46;
-    background-color: transparent;
-    color: #ffcb46;
+    background-color: #ffcb46;
+    color: #161618;
 
     font-family: Poppins;
     font-style: normal;
@@ -125,11 +143,10 @@ main button{
     outline:none;
 }
 
-main button:hover {
-    background-color: #ffcb46;
+.oferta button:hover {
+    background-color: #ffbb0f;
     color: #161618;
 }
-
 
 /*       footer       */
 
