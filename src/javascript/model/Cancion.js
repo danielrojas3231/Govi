@@ -1,15 +1,15 @@
 class Cancion{
 
-    constructor(app){
+    constructor(nombre,autor,album,genero,duracion,fecha,imagen){
 
-        this.app = app;
         this.nombre = nombre;
         this.autor = autor;
-        this.genero = genero;
         this.album = album;
-        this.imagen = imagen;
+        this.genero = genero;
         this.duracion = duracion;
         this.fecha = fecha;
+        this.imagen = imagen;
+        
 
     }
 
