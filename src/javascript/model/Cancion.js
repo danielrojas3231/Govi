@@ -9,7 +9,6 @@ class Cancion{
         this.duracion = duracion;
         this.fecha = fecha;
         this.imagen = imagen;
-        
 
     }
 
